@@ -3,9 +3,9 @@ var less = require('gulp-less');
 var minify = require('gulp-minify-css');
 
 
-gulp.task('less-styles', function() {
-    gulp.src(['./less'])
+gulp.task('build', function() {
+    gulp.src(['./less/style.less'])
     .pipe(less())
     .pipe(minify())
-    .pipe(gulp.dest('./css'))
+    .pipe(gulp.dest('./css/'))
 });

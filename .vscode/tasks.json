@@ -9,7 +9,7 @@
     ],
     "tasks": [
         {
-            "taskName": "less-styles",
+            "taskName": "build",
             "problemMatcher": "$lessCompile",
             "showOutput": "always"
         }
