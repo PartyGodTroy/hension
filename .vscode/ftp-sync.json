@@ -1,0 +1,16 @@
+{
+    "remotePath": "./",
+    "host": "bigvgames.com",
+    "username": "bigvgamescom",
+    "password": "488b0711-b372-40be-a74c-e48aa73e8623",
+    "port": 21,
+    "protocol": "ftp",
+    "uploadOnSave": false,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "ignore": [
+        "\\.vscode",
+        "\\.git"
+    ]
+}
