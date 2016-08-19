@@ -16,8 +16,9 @@
         font-size: 96px;
         color: white;
     }
+    margin-top: -2%;
 }
-.navbar-brand{
+a.name.navbar-brand{
     color: @navitem-color;
     :hover, 
     :focus{
@@ -29,17 +30,20 @@
     color: @navitem-color;
 }
 
-#main_jumbotron{
-    margin-top: -2%;
-}
+
 
 #navbar{
+    border-bottom-width: 0px;
     background-color: @pane-background-color;
+    div.navbar-collapse.collapse{
+        background-color: @pane-background-color;
+    }
 }
-#navbar > div.navbar-collapse.collapse{
-    background-color: @pane-background-color;
-}
+
 footer{
     color: @navitem-color;
     background-color: @pane-background-color;
+}
+#block-hension-account-menu > ul{
+    padding-right: 20px;
 }
