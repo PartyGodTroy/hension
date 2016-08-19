@@ -1,5 +1,9 @@
 @import "./fonts.less";
 
+@navitem-color: #060606;
+@navitem-hover-color: #656565;
+@pane-background-color: #151515;
+
 
 #main_jumbotron
 {
@@ -9,7 +13,31 @@
     h1
     {
         font-family: sf_collegiate;
-        font-size: 74px;
+        font-size: 96px;
         color: white;
     }
+}
+.navbar-brand{
+    color: @navitem-color;
+    :hover :focus{
+        color:@navitem-hover-color;
+    }
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: @navitem-color;
+}
+
+#main_jumbotron{
+    margin-top: -2%;
+}
+
+#navbar{
+    background-color: @pane-background-color;
+}
+#navbar > div.navbar-collapse.collapse{
+    background-color: @pane-background-color;
+}
+footer{
+    background-color: @pane-background-color;
 }
