@@ -1,4 +1,5 @@
 @import "./fonts.less";
+@import "./game.less";
 
 @navitem-color: #efefef;
 @navitem-hover-color: #cfcfcf;
@@ -43,6 +44,15 @@ a.name.navbar-brand{
 footer{
     color: @navitem-color;
     background-color: @pane-background-color;
+    ul.menu.nav{
+        li{
+            a{
+                :hover{
+                    background-color: transparent;
+                }
+            }
+        }
+    }
 }
 #block-hension-account-menu > ul{
     padding-right: 20px;
