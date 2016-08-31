@@ -5,6 +5,7 @@ sites/*/*settings*.php
 files/
 sites/*/files
 sites/*/private
+/.vscode
 
 # Ignore default text files
 robots.txt
