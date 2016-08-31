@@ -1,7 +1,9 @@
 <!-- @file Instructions on how to sub-theme the Drupal Bootstrap base theme using the CDN Starterkit. -->
 <!-- @defgroup sub_theming_cdn -->
 <!-- @ingroup sub_theming -->
-# CDN Starterkit
+
+# A TWBS Subtheme taking advantage of the CDN Starterkit
+## With Jumbotron
 
 The CDN Starterkit is rather simple to set up. You don't have to do anything
 until you wish to override the default [Drupal Bootstrap] base theme settings
