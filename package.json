@@ -1,0 +1,30 @@
+{
+  "name": "hension",
+  "version": "0.0.0",
+  "description": "bigvgames.com theme based on tweme/bootstrap theme",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kidveno/hension.git"
+  },
+  "keywords": [
+    "twbs",
+    "drupal"
+  ],
+  "author": "kidveno",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/kidveno/hension/issues"
+  },
+  "homepage": "https://github.com/kidveno/hension#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less":"latest",
+    "less":"latest",
+    "gulp-uglify":"latest"
+  },
+  "devDependencies": {}
+}

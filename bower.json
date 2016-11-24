@@ -1,0 +1,22 @@
+{
+  "name": "hension",
+  "description": "bigvgames.com theme based on tweme/bootstrap theme",
+  "main": "gulpfile.js",
+  "authors": [
+    "kidveno"
+  ],
+  "license": "BSD-2-Clause",
+  "keywords": [
+    "twbs",
+    "drupal"
+  ],
+  "homepage": "https://github.com/kidveno/hension",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

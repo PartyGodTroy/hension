@@ -4,12 +4,23 @@
 @navitem-color: #efefef;
 @navitem-hover-color: #cfcfcf;
 @pane-background-color: #151515;
+@footer-height: 90px;
+
+
+html
+{
+    position: relative;
+    min-height: 100%;
+}
 
 
 body{
     margin-top: 0px;
+    margin-bottom: @footer-height;
 }
-
+.navbar-header{
+    padding-left:30px;
+}
 #block-socialmedialinks{
     text-align: center;
 }
@@ -31,6 +42,7 @@ body{
 
 h1.page-header{
     font-size:42px;
+    margin-top:5px;
 }
 a{
     color: indianred;
@@ -39,41 +51,25 @@ a{
         
     }
 }
-a.name.navbar-brand{
-    color: @navitem-color;
-    :hover, 
-    :focus{
-        color:@navitem-hover-color;
-    }
-}
-
-.navbar-inverse .navbar-nav>li>a {
-    color: @navitem-color;
-}
 
 
-
-#navbar{
-    border-bottom-width: 0px;
-    background-color: @pane-background-color;
-    div.navbar-collapse.collapse{
-        background-color: @pane-background-color;
-    }
-}
-
-footer{
+footer
+{
     color: @navitem-color;
     background-color: @pane-background-color;
-    ul.menu.nav{
-        li{
-            a{
-                :hover{
-                    background-color: transparent;
-                }
-            }
-        }
-    }
+}
+.footer
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: @footer-height;
+    margin-top:20px;
 }
 #block-hension-account-menu > ul{
     padding-right: 20px;
+}
+#block-hension-footer > ul > li 
+{
+    width:80px;
 }
